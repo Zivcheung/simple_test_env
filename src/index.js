@@ -20,7 +20,7 @@ function component() {
     // var time = document.createElement("div");
     // var m = Moment.format("MMM Do YY");
     moment.locale("en");
-    var time=moment().format("MMM D");
+    var time=moment("2018-06-23").format("MMM Do");
     // var time = moment();
     console.log(time);
 

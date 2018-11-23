@@ -1,6 +1,5 @@
 import _ from "lodash";
 import Data from "./data.xml";
-import moment from "moment";
 import "./style.css"
 import Icon from "./image1.png";
 
@@ -17,12 +16,6 @@ function component() {
     element.appendChild(myIcon);
     
     console.log(Data);
-    // var time = document.createElement("div");
-    // var m = Moment.format("MMM Do YY");
-    moment.locale("en");
-    var time=moment().format("MMM D");
-    // var time = moment();
-    console.log(time);
 
 
 
